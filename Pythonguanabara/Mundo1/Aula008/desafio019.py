@@ -1,5 +1,15 @@
-import random
+from random import choice
 
-aluno = ['Pamela, Bruno, Alice, Menino']
+nome1 = str(input('Primeiro nome: '))
 
-print(random.randrange(aluno))
+nome2 = str(input('Segundo nome: '))
+
+nome3 = str(input('Terceiro nome: '))
+
+nome4 = str(input('Quarto nome: '))
+
+lista = [nome1, nome2, nome3, nome4]
+
+escolhido = choice(lista)
+
+print('O nome escolhido foi {}'.format(escolhido))
