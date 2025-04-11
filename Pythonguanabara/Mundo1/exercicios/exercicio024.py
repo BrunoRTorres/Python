@@ -1,3 +1,3 @@
 cidade = str(input('Digite o nome da sua cidade: ')).strip()
 
-print(cidade[:5].capitalize() == 'Santo')
+print(cidade [:5].capitalize() == 'Santo')
