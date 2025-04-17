@@ -12,4 +12,3 @@ else:
 
     print('Que pena, voce perdeu!')
     print('O numero certo era o {}'.format(numero))
-

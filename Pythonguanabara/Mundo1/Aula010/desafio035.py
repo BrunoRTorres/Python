@@ -1,0 +1,1 @@
+# soma de dois lados deve ser maior que o terceiro lado
