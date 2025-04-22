@@ -1,6 +1,6 @@
 salario = float(input('Digite o salario do funcionario: R$'))
 
-if salario >1250:
+if salario > 1250:
 
     print('O seu novo salario com 10% de aumento sera R${:.2f}'.format(salario * 1.1))
 
