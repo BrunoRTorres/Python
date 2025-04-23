@@ -12,4 +12,4 @@ lista = [nome1, nome2, nome3, nome4]
 
 escolhido = choice(lista)
 
-print('O nome escolhido foi {}'.format(escolhido))
+print('O nome escolhido foi \033[34m{}\033[m'.format(escolhido))

@@ -12,4 +12,4 @@ lista = [nome1, nome2, nome3, nome4]
 
 shuffle(lista)
 
-print('A ordem da apresentacao do trabalho dos alunos sera: {}'.format(lista))
+print('A ordem da apresentacao do trabalho dos alunos sera: \033[31m{}\033[m'.format(lista))
