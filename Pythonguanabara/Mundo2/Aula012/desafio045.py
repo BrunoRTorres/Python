@@ -32,7 +32,7 @@ if jogador == 'pedra':
 
         print('Voce ganhou!')
     
-if jogador == 'papel':
+elif jogador == 'papel':
     
     if computador == 'Pedra':
 
@@ -52,7 +52,7 @@ if jogador == 'papel':
 
         print('Voce perdeu!')
 
-if jogador == 'tesoura':
+elif jogador == 'tesoura':
 
     if computador == 'Pedra':
 
