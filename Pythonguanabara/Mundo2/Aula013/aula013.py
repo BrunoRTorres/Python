@@ -1,4 +1,4 @@
-# Aula de repeticoes controladas
+# Aula de repeticoes com variavel de controle
 
 #! Estrutura 
 
