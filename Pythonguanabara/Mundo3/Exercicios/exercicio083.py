@@ -1,10 +1,10 @@
-expressao = str(input('Digite uma expressao matematica: '))
+expr = str(input('Digite a expressao: '))
 pilha = []
 
-for simbolo in expressao:
-    if simbolo == '(':
+for simb in expr:
+    if simb == '(':
         pilha.append('(')
-    elif simbolo == ')':
+    elif simb == ')':
         if len(pilha) > 0:
             pilha.pop()
         else:
