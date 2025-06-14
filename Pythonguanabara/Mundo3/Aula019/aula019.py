@@ -2,7 +2,7 @@
 
 #! Fundamentos
 
-#? Declaracao do dicionario
+#? Declaracao do dicionariq
 # dados = dict{} 
 
 #? Exemplo de dicionario
