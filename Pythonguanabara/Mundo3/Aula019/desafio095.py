@@ -27,9 +27,27 @@ while True:
         break
 print('=-' * 30 + '=')
 
+print('Cod ', end='')
+for i in jogador.keys():
+    print(f'{i:<13}', end='')
 print()
+
 for k, v in enumerate(time):
-    print(f'{k:>2} ', end='')
+    print(f'{k:>2}  ', end='')
     for d in v.values():
-        print(f'{str(d):<15}', end='')
+        print(f'{str(d):<13}', end='')
     print()
+
+while True:
+    escolha = int(input('Deseja ver os dados de qual jogador? '))
+    if escolha == 999:
+        print('Encerrando...')
+        break
+    print('=-' * 20 + '=')
+    if escolha >= len(time):
+        print(f'ERRO! jogador com Cod {escolha} nao existe!')
+    else:
+        print(f'Historico do jogador {time[escolha]["nome"]}')
+        for i, g in enumerate(time[escolha]["gols"]):
+            print(f'    Na partida {i+1} marcou {g} gols.')
+        print('=-' * 20 + '=')
