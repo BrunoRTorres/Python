@@ -1,6 +1,11 @@
 from time import sleep
 
 def contador(a, b, c):
+    if c < 0:
+        c += -1
+    if c == 0:
+         c = 1
+    
     if a < b:
         cont = a
         while cont <= b:
