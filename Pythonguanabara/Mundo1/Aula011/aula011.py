@@ -2,7 +2,7 @@
 
 #! adicionar cores no terminal do python
 
-    # \033[0;33;44m  #? 0 = estilo, 33 = cor do texto, 44m = cor do fundo
+    # \033[0;33;44m  #? 0 = estilo, 33 = cor do texto, 44 = cor do fundo
 
 #! codigos do estilo
 
